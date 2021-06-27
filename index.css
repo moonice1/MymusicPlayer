@@ -14,7 +14,7 @@ body,ul,dl,dd {
       }
 
       .play_wrap {
-        width: 800px;
+        width: 855px;
         height: 544px;
         position: fixed;
         left: 50%;
@@ -60,7 +60,7 @@ body,ul,dl,dd {
       }
   
       .song_wrapper {
-        width: 200px;
+        width: 255px;
         height: 435px;
         box-sizing: border-box;
         padding: 10px;
@@ -71,9 +71,9 @@ body,ul,dl,dd {
         z-index: 1;
       }
   
-      .song_stretch {
+      /* .song_stretch {
         width: 600px;
-      }
+      } */
   
       .song_list {
         width: 100%;
@@ -117,19 +117,28 @@ body,ul,dl,dd {
         text-overflow: ellipsis;
         white-space: nowrap;
       }
+
+      .song_list li #singer{
+        font-weight: normal;
+        width: 45px;
+        font-size: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
   
-      .song_stretch .song_list li b {
+      /* .song_stretch .song_list li b {
         width: 200px;
       }
-  
+        
       .song_stretch .song_list li em {
         width: 150px;
-      }
+      } */
   
       .song_list li span {
         width: 23px;
         height: 17px;
-        margin-right: 50px;
+        margin-right: 5px;
       }
       .song_list li span i {
         display: block;
@@ -149,11 +158,11 @@ body,ul,dl,dd {
         width: 400px;
         height: 435px;
         position: absolute;
-        left: 200px;
+        left: 255px;
         top: 0px;
       }
   
-      .player_con2 {
+      /* .player_con2 {
         width: 400px;
         height: 435px;
         position: absolute;
@@ -167,7 +176,7 @@ body,ul,dl,dd {
         top: 30px;
         width: 355px;
         height: 265px;
-      }
+      } */
   
       .disc {
         position: absolute;
@@ -189,7 +198,7 @@ body,ul,dl,dd {
         height: 435px;
         list-style: none;
         position: absolute;
-        left: 600px;
+        left: 655px;
         top: 0px;
         padding: 25px 10px;
       }
@@ -246,7 +255,7 @@ body,ul,dl,dd {
         border-bottom-right-radius: 4px;
       }
       .myaudio {
-        width: 800px;
+        width: 855px;
         height: 40px;
         margin-top: 5px;
         outline: none;

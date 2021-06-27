@@ -23,8 +23,8 @@
                     <ul class="song_list">
                         <li v-for="item in musicList">
                             <a href="javascript:;" @click="playMusic(item.id)"></a>
-                            <b>{{ item.name }}</b>
-                            <span v-if="item.mvid!=0" @click="playMV(item.mvid)"><i></i></span>
+                            <b :title="item.name">{{ item.name }}</b><span id="singer" :title="item.artists[0].name">{{ item.artists[0].name }}</span>
+                            <span v-if="item.mvid!=0" @click="playMV(item.mvid)"><i></i></span>                            
                         </li>                        
                     </ul>
                     <img src="" class="switch_btn" alt="">
